@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "do you like me?",                                    // First interaction
-            yesBtn: "yes",                                             // Text for "Yes" button
-            noBtn: "no",                                               // Text for "No" button
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
             secretAnswer: "i don't like you, i love you! ❤️"           // Secret hover message
         },
         second: {
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "yaaayay! im the luckiest person in the world! 🎉💝💖💝💓",
         message: "now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🫰😽🍓🤍🤍🤍🌹🥰🤗❤️💕"  // These will bounce around
+        emojis: "🫰😽🍓🤍🌹🥰🤗❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -69,7 +69,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "0.25s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
